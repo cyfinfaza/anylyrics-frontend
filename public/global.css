@@ -30,7 +30,7 @@ button, input{
 
 button:active, input:active{
 	filter: contrast(0.7);
-	transform: translateY(2px);
+	transform: translateY(1px);
 }
 
 input{

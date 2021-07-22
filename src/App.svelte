@@ -9,6 +9,7 @@
 		if(query.length > 0){
 			searching = true
 			let data = await fetch(`https://us-south.functions.appdomain.cloud/api/v1/web/cyfinfaza%40gmail.com_dev/default/ai-lyrics?q=${query}`).then(response => response.json())
+			// let data = await fetch(`http://localhost:5006/lyrics?q=${query}`).then(response => response.json())
 			if(data.error || !data){
 				error = true
 			}
